@@ -8,7 +8,7 @@ int ranNumGenerator()
 {
     Random rnd = new Random();
     int ranNum = rnd.Next(1, 100);
-    Console.WriteLine(ranNum / 2); //console it before return to check if it works
+    Console.WriteLine(ranNum % 2); //console it before return to check if it works
     return (ranNum % 2);
 }
 
